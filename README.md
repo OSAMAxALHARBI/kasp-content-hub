@@ -4,7 +4,7 @@ A self-updating mirror and browser for the KASP 2026 cybersecurity program's
 course files. A scheduled job syncs a Google Drive folder every few minutes,
 and a web app lets you browse, preview, and download everything.
 
-**Live site:** https://kasp-content-hub.vercel.app
+**Live site:** https://kaust-summer.vercel.app
 
 ## How it works
 

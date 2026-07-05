@@ -9,7 +9,7 @@ Drive folder (`KASP_2026_CyS_Content`). A scheduled cloud job mirrors the Drive
 folder into `Content/` every few minutes, an indexer turns that into a JSON feed,
 and a React web app (hosted on Vercel) browses/previews/downloads the files.
 
-**Live site:** https://kasp-content-hub.vercel.app · **Repo:** `OSAMAxALHARBI/kasp-content-hub` (public)
+**Live site:** https://kaust-summer.vercel.app · **Repo:** `OSAMAxALHARBI/kasp-content-hub` (public)
 
 ## Architecture
 
@@ -42,7 +42,7 @@ Google Drive ──rclone sync──► Content/ ──build_hub.py──► Hub
 3. **Web app** — `webapp/` is a React 19 + Vite 7 + Tailwind v4 + shadcn/ui SPA
    (wouter routing, react-query). Its production build is committed at the **repo
    root** (`index.html` + `assets/`) and served at `/`. It `fetch()`es
-   `https://kasp-content-hub.vercel.app/Hub/data.json` and links each file to
+   `/Hub/data.json` (same-origin — works on any domain) and links each file to
    `/Content/<rel>` (URL-encoded per segment). `vercel.json` rewrites every path
    except `/Content/*` and `/Hub/*` to `/index.html` for client-side routing.
 

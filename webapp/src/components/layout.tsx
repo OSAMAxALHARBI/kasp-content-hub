@@ -3,7 +3,7 @@ import { Link, useLocation } from "wouter";
 import { 
   CommandDialog, CommandInput, CommandList, CommandEmpty, CommandGroup, CommandItem 
 } from "@/components/ui/command";
-import { Search, Folder, FolderTree, Home, ListTree, List, Activity, Moon, Sun, RefreshCw, History, X } from "lucide-react";
+import { Search, Folder, FolderTree, Home, ListTree, List, Activity, Moon, Sun, RefreshCw, History, X, ExternalLink } from "lucide-react";
 import { useHubData } from "@/hooks/use-data";
 import { cn, fuzzyMatch, getEffectiveFileKind, getFileColorAccent, getFileUrl, formatBytes, formatRelativeTime } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -12,6 +12,12 @@ import { HubFile, HubSection, HubTreeNode } from "@/types";
 
 const RECENT_SEARCHES_KEY = "kasp-recent-searches";
 const MAX_RECENT = 6;
+
+// Opens GitHub's "Run workflow" page for the sync job. No token is ever stored
+// in this (public) site; triggering the sync happens on GitHub, signed in as the
+// repo owner. Safe by construction.
+const SYNC_WORKFLOW_URL =
+  "https://github.com/OSAMAxALHARBI/kasp-content-hub/actions/workflows/sync.yml";
 
 function loadRecentSearches(): string[] {
   try {
@@ -328,14 +334,27 @@ export function AppLayout({ children }: { children: React.ReactNode }) {
             );
           })}
         </nav>
-        <div className="p-4 border-t flex items-center justify-between">
-          <Button variant="ghost" size="icon" onClick={() => setIsDark(!isDark)} className="text-muted-foreground">
-            {isDark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
-          </Button>
-          <Button variant="ghost" size="sm" onClick={() => refetch()} disabled={isFetching} className="text-muted-foreground font-mono text-xs">
-            <RefreshCw className={cn("w-3 h-3 mr-2", isFetching && "animate-spin")} />
-            {isFetching ? "SYNCING..." : "SYNC"}
-          </Button>
+        <div className="p-4 border-t space-y-2">
+          <a
+            href={SYNC_WORKFLOW_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Pull the latest files from Google Drive now (opens GitHub, then click 'Run workflow')"
+            className="flex items-center justify-center gap-2 w-full px-3 py-2 rounded-md text-xs font-mono bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
+          >
+            <Activity className="w-3.5 h-3.5" />
+            SYNC DRIVE
+            <ExternalLink className="w-3 h-3 opacity-70" />
+          </a>
+          <div className="flex items-center justify-between">
+            <Button variant="ghost" size="icon" onClick={() => setIsDark(!isDark)} className="text-muted-foreground">
+              {isDark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+            </Button>
+            <Button variant="ghost" size="sm" onClick={() => refetch()} disabled={isFetching} className="text-muted-foreground font-mono text-xs" title="Reload the file list from the server">
+              <RefreshCw className={cn("w-3 h-3 mr-2", isFetching && "animate-spin")} />
+              {isFetching ? "REFRESHING..." : "REFRESH"}
+            </Button>
+          </div>
         </div>
       </aside>
 
@@ -348,6 +367,16 @@ export function AppLayout({ children }: { children: React.ReactNode }) {
           </div>
           <div className="flex items-center gap-1">
             <GlobalSearch variant="icon" />
+            <a
+              href={SYNC_WORKFLOW_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Sync Drive (opens GitHub)"
+              aria-label="Sync Drive"
+              className="inline-flex items-center justify-center h-9 w-9 rounded-md text-primary hover:bg-accent transition-colors"
+            >
+              <Activity className="w-4 h-4" />
+            </a>
             <Button variant="ghost" size="icon" onClick={() => setIsDark(!isDark)}>
               {isDark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
             </Button>

@@ -1,0 +1,69 @@
+name: Sync KASP Drive
+
+# Cloud mirror of the KASP Google Drive folder, running on GitHub's servers
+# so it works 24/7 with your PC off. Every run pulls changes from Drive; it
+# only rebuilds the hub and commits when the content actually changed, so
+# Vercel redeploys only on real updates (not on every 5-minute tick).
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # every 5 min (GitHub may delay ticks under load)
+  workflow_dispatch:          # allows a manual run from the Actions tab
+
+# Least privilege: only allow this workflow to push commits.
+permissions:
+  contents: write
+
+# Never let two syncs overlap.
+concurrency:
+  group: drive-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install rclone
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq rclone
+
+      - name: Write rclone config from secret
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+        run: |
+          mkdir -p ~/.config/rclone
+          printf '%s\n' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+
+      - name: Sync from Google Drive (read-only mirror) and publish if changed
+        run: |
+          set -e
+          rclone sync kaspdrive: Content \
+            --drive-export-formats pptx,docx,xlsx,pdf,svg \
+            --drive-acknowledge-abuse \
+            --fast-list --transfers 8 --checkers 16 \
+            --max-delete 500 --track-renames \
+            --log-level INFO
+
+          # Only rebuild + commit when the mirrored content actually changed.
+          # (build_hub.py stamps a fresh timestamp every run, so guarding on
+          #  Content/ avoids a pointless commit + Vercel deploy every 5 minutes.)
+          if [ -z "$(git status --porcelain Content)" ]; then
+            echo "No content changes — nothing to publish."
+            exit 0
+          fi
+
+          python scripts/build_hub.py
+
+          git config user.name "OSAMAxALHARBI"
+          git config user.email "osamapcrabigh@gmail.com"
+          git add -A
+          git commit -m "sync: content update $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push

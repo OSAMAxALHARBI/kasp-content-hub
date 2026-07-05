@@ -1,0 +1,24 @@
+# rclone config never lives in the repo, but guard against accidents
+rclone.conf
+*.token
+
+# Temp / lock / OS cruft
+~$*
+*.tmp
+*.partial
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Web app (source is committed; build deps/output are not)
+/webapp/node_modules/
+/webapp/dist/
+/webapp/.vite/
+
+# Local scratch / hand-off artifacts (kept local, not published)
+/*.zip
+/replit overview.txt
+/.playwright-mcp/
+
+# NOTE: Content/, Hub/data.json, and the built index.html + assets/ ARE
+# committed on purpose — the hosted site serves them. Do not add them here.

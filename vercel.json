@@ -1,0 +1,29 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/Content/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=3600, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/Hub/data.js",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/Hub/data.json",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache, must-revalidate" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    }
+  ],
+  "rewrites": [
+    { "source": "/((?!Content/|Hub/).*)", "destination": "/index.html" }
+  ]
+}

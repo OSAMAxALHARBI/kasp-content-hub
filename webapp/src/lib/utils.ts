@@ -36,7 +36,8 @@ export function formatDate(epochSeconds: number) {
 }
 
 export function getFileUrl(relPath: string) {
-  return 'https://kasp-content-hub.vercel.app/Content/' + relPath.split('/').map(encodeURIComponent).join('/')
+  // Relative (same-origin) so file links work on any domain the app is hosted at.
+  return '/Content/' + relPath.split('/').map(encodeURIComponent).join('/')
 }
 
 export function getWeekNumber(name: string): number | null {

@@ -5,7 +5,8 @@ export function useHubData() {
   return useQuery({
     queryKey: ["hub-data"],
     queryFn: async (): Promise<HubData> => {
-      const res = await fetch("https://kasp-content-hub.vercel.app/Hub/data.json");
+      // Relative (same-origin) so the app works on any domain it's hosted at.
+      const res = await fetch("/Hub/data.json");
       if (!res.ok) {
         throw new Error("Failed to fetch hub data");
       }

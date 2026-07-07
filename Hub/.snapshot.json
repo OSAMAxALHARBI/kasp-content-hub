@@ -5,6 +5,90 @@
   "name": "Practical Malware Analysis.pdf",
   "type": "pdf"
  },
+ "Week 1/Day 2/Wireshark_pcap_investigations_Student (1).pdf": {
+  "size": 319355,
+  "mtime": 1782716710.0,
+  "name": "Wireshark_pcap_investigations_Student (1).pdf",
+  "type": "pdf"
+ },
+ "Week 1/Day 2/(Students Version) tcpdump_pcap_investigation_sample01.pdf": {
+  "size": 243598,
+  "mtime": 1782712958.0,
+  "name": "(Students Version) tcpdump_pcap_investigation_sample01.pdf",
+  "type": "pdf"
+ },
+ "Week 1/Day 2/(Solution) tcpdump_pcap_investigation_sample01.pdf": {
+  "size": 123719,
+  "mtime": 1782569622.0,
+  "name": "(Solution) tcpdump_pcap_investigation_sample01.pdf",
+  "type": "pdf"
+ },
+ "Week 1/Day 2/(Student Version) tcpdump_pcap_investigation_sample02.pdf": {
+  "size": 241928,
+  "mtime": 1782713299.0,
+  "name": "(Student Version) tcpdump_pcap_investigation_sample02.pdf",
+  "type": "pdf"
+ },
+ "Week 1/Day 2/(Solution) tcpdump_pcap_investigation_sample02.pdf": {
+  "size": 131020,
+  "mtime": 1782569622.0,
+  "name": "(Solution) tcpdump_pcap_investigation_sample02.pdf",
+  "type": "pdf"
+ },
+ "Week 1/Day 2/Lecture-Network Security.pdf": {
+  "size": 1578054,
+  "mtime": 1782712612.0,
+  "name": "Lecture-Network Security.pdf",
+  "type": "pdf"
+ },
+ "Week 1/Day 3/(Student Version) Endpoint Security Challenge.pdf": {
+  "size": 103514,
+  "mtime": 1782762321.0,
+  "name": "(Student Version) Endpoint Security Challenge.pdf",
+  "type": "pdf"
+ },
+ "Week 1/Day 3/Lecture-Endpoint Security.pdf": {
+  "size": 594937,
+  "mtime": 1782761993.0,
+  "name": "Lecture-Endpoint Security.pdf",
+  "type": "pdf"
+ },
+ "Week 1/Day 3/(Solution) Endpoint Security Challenge.pdf": {
+  "size": 141618,
+  "mtime": 1782903959.33,
+  "name": "(Solution) Endpoint Security Challenge.pdf",
+  "type": "pdf"
+ },
+ "Week 1/Day 4/(Solution) ep7_elastic_kibana_lab.pdf": {
+  "size": 85527,
+  "mtime": 1783415467.0,
+  "name": "(Solution) ep7_elastic_kibana_lab.pdf",
+  "type": "pdf"
+ },
+ "Week 1/Day 4/Lab Setup Elastic-Kibana.pdf": {
+  "size": 158740,
+  "mtime": 1782569639.0,
+  "name": "Lab Setup Elastic-Kibana.pdf",
+  "type": "pdf"
+ },
+ "Week 1/Day 4/(Student Version) ep7_elastic_kibana_lab.pdf": {
+  "size": 141825,
+  "mtime": 1782968711.175,
+  "name": "(Student Version) ep7_elastic_kibana_lab.pdf",
+  "type": "pdf"
+ },
+ "Week 1/Day 4/Lecture-SIEM.pdf": {
+  "size": 1634879,
+  "mtime": 1782844859.0,
+  "name": "Lecture-SIEM.pdf",
+  "type": "pdf"
+ },
+ "Week 1/Day 1/PowerShell_Instructor_Answer_Key.pdf": {
+  "size": 387382,
+  "mtime": 1782844859.0,
+  "name": "PowerShell_Instructor_Answer_Key.pdf",
+  "type": "pdf"
+ },
  "Week 1/Day 1/Lecture-SOC Fundamentals.pdf": {
   "size": 1096847,
   "mtime": 1782659062.0,
@@ -23,94 +107,10 @@
   "name": "powershell_defensive_standards_report (1).pdf",
   "type": "pdf"
  },
- "Week 1/Day 1/PowerShell_Instructor_Answer_Key.pdf": {
-  "size": 387382,
-  "mtime": 1782844859.0,
-  "name": "PowerShell_Instructor_Answer_Key.pdf",
-  "type": "pdf"
- },
- "Week 1/Day 2/(Solution) tcpdump_pcap_investigation_sample01.pdf": {
-  "size": 123719,
-  "mtime": 1782569622.0,
-  "name": "(Solution) tcpdump_pcap_investigation_sample01.pdf",
-  "type": "pdf"
- },
- "Week 1/Day 2/(Solution) tcpdump_pcap_investigation_sample02.pdf": {
-  "size": 131020,
-  "mtime": 1782569622.0,
-  "name": "(Solution) tcpdump_pcap_investigation_sample02.pdf",
-  "type": "pdf"
- },
- "Week 1/Day 2/(Student Version) tcpdump_pcap_investigation_sample02.pdf": {
-  "size": 241928,
-  "mtime": 1782713299.0,
-  "name": "(Student Version) tcpdump_pcap_investigation_sample02.pdf",
-  "type": "pdf"
- },
- "Week 1/Day 2/(Students Version) tcpdump_pcap_investigation_sample01.pdf": {
-  "size": 243598,
-  "mtime": 1782712958.0,
-  "name": "(Students Version) tcpdump_pcap_investigation_sample01.pdf",
-  "type": "pdf"
- },
- "Week 1/Day 2/Lecture-Network Security.pdf": {
-  "size": 1578054,
-  "mtime": 1782712612.0,
-  "name": "Lecture-Network Security.pdf",
-  "type": "pdf"
- },
- "Week 1/Day 2/Wireshark_pcap_investigations_Student (1).pdf": {
-  "size": 319355,
-  "mtime": 1782716710.0,
-  "name": "Wireshark_pcap_investigations_Student (1).pdf",
-  "type": "pdf"
- },
- "Week 1/Day 3/(Solution) Endpoint Security Challenge.pdf": {
-  "size": 141618,
-  "mtime": 1782903959.33,
-  "name": "(Solution) Endpoint Security Challenge.pdf",
-  "type": "pdf"
- },
- "Week 1/Day 3/(Student Version) Endpoint Security Challenge.pdf": {
-  "size": 103514,
-  "mtime": 1782762321.0,
-  "name": "(Student Version) Endpoint Security Challenge.pdf",
-  "type": "pdf"
- },
- "Week 1/Day 3/Lecture-Endpoint Security.pdf": {
-  "size": 594937,
-  "mtime": 1782761993.0,
-  "name": "Lecture-Endpoint Security.pdf",
-  "type": "pdf"
- },
- "Week 1/Day 4/(Student Version) ep7_elastic_kibana_lab.pdf": {
-  "size": 141825,
-  "mtime": 1782968711.175,
-  "name": "(Student Version) ep7_elastic_kibana_lab.pdf",
-  "type": "pdf"
- },
- "Week 1/Day 4/Lab Setup Elastic-Kibana.pdf": {
-  "size": 158740,
-  "mtime": 1782569639.0,
-  "name": "Lab Setup Elastic-Kibana.pdf",
-  "type": "pdf"
- },
- "Week 1/Day 4/Lecture-SIEM.pdf": {
-  "size": 1634879,
-  "mtime": 1782844859.0,
-  "name": "Lecture-SIEM.pdf",
-  "type": "pdf"
- },
- "Week 1/Day 4/CDO-Samples/tcpdump-sample01.pcap": {
-  "size": 2450358,
-  "mtime": 1722203769.0,
-  "name": "tcpdump-sample01.pcap",
-  "type": "file"
- },
- "Week 1/Day 4/CDO-Samples/tcpdump-sample02.pcap": {
-  "size": 6708630,
-  "mtime": 1722203769.0,
-  "name": "tcpdump-sample02.pcap",
+ "Week 1/Day 4/CDO-Samples/wireshark-Sample02.pcap": {
+  "size": 32055867,
+  "mtime": 1722203768.0,
+  "name": "wireshark-Sample02.pcap",
   "type": "file"
  },
  "Week 1/Day 4/CDO-Samples/tcpdump_challenge.pcap": {
@@ -125,10 +125,10 @@
   "name": "wireshark-Sample01.pcap",
   "type": "file"
  },
- "Week 1/Day 4/CDO-Samples/wireshark-Sample02.pcap": {
-  "size": 32055867,
-  "mtime": 1722203768.0,
-  "name": "wireshark-Sample02.pcap",
+ "Week 1/Day 4/CDO-Samples/tcpdump-sample02.pcap": {
+  "size": 6708630,
+  "mtime": 1722203769.0,
+  "name": "tcpdump-sample02.pcap",
   "type": "file"
  },
  "Week 1/Day 4/CDO-Samples/wireshark_challenge.pcap": {
@@ -137,17 +137,59 @@
   "name": "wireshark_challenge.pcap",
   "type": "file"
  },
- "Week 1/Day 4/CDO-Samples/ep1/ep1alerts.json": {
-  "size": 80341,
+ "Week 1/Day 4/CDO-Samples/tcpdump-sample01.pcap": {
+  "size": 2450358,
+  "mtime": 1722203769.0,
+  "name": "tcpdump-sample01.pcap",
+  "type": "file"
+ },
+ "Week 1/Day 4/CDO-Samples/ep7/ep7alerts.json": {
+  "size": 66919,
   "mtime": 1771787253.0,
-  "name": "ep1alerts.json",
+  "name": "ep7alerts.json",
   "type": "code"
+ },
+ "Week 1/Day 4/CDO-Samples/ep7/README.md": {
+  "size": 3884,
+  "mtime": 1771787253.0,
+  "name": "README.md",
+  "type": "text"
+ },
+ "Week 1/Day 4/CDO-Samples/ep7/mapping.json": {
+  "size": 228020,
+  "mtime": 1771787253.0,
+  "name": "mapping.json",
+  "type": "code"
+ },
+ "Week 1/Day 4/CDO-Samples/ep7/ep7alerts.ndjson": {
+  "size": 66917,
+  "mtime": 1771787253.0,
+  "name": "ep7alerts.ndjson",
+  "type": "file"
  },
  "Week 1/Day 4/CDO-Samples/ep1/ep1alerts.ndjson": {
   "size": 80339,
   "mtime": 1771787253.0,
   "name": "ep1alerts.ndjson",
   "type": "file"
+ },
+ "Week 1/Day 4/CDO-Samples/ep1/README.md": {
+  "size": 3885,
+  "mtime": 1771787253.0,
+  "name": "README.md",
+  "type": "text"
+ },
+ "Week 1/Day 4/CDO-Samples/ep1/ep1alerts.json": {
+  "size": 80341,
+  "mtime": 1771787253.0,
+  "name": "ep1alerts.json",
+  "type": "code"
+ },
+ "Week 1/Day 4/CDO-Samples/ep1/mapping.json": {
+  "size": 228151,
+  "mtime": 1771787253.0,
+  "name": "mapping.json",
+  "type": "code"
  },
  "Week 1/Day 4/CDO-Samples/ep1/ep1data.json": {
   "size": 7182627,
@@ -161,13 +203,7 @@
   "name": "ep1data.ndjson",
   "type": "file"
  },
- "Week 1/Day 4/CDO-Samples/ep1/mapping.json": {
-  "size": 228151,
-  "mtime": 1771787253.0,
-  "name": "mapping.json",
-  "type": "code"
- },
- "Week 1/Day 4/CDO-Samples/ep1/README.md": {
+ "Week 1/Day 4/CDO-Samples/ep3/README.md": {
   "size": 3885,
   "mtime": 1771787253.0,
   "name": "README.md",
@@ -179,23 +215,17 @@
   "name": "ep3alerts.json",
   "type": "code"
  },
- "Week 1/Day 4/CDO-Samples/ep3/ep3alerts.ndjson": {
-  "size": 311839,
-  "mtime": 1771787253.0,
-  "name": "ep3alerts.ndjson",
-  "type": "file"
- },
  "Week 1/Day 4/CDO-Samples/ep3/ep3data.json.gz": {
   "size": 2013879,
   "mtime": 1771787253.0,
   "name": "ep3data.json.gz",
   "type": "archive"
  },
- "Week 1/Day 4/CDO-Samples/ep3/ep3data.ndjson.gz": {
-  "size": 2013890,
+ "Week 1/Day 4/CDO-Samples/ep3/ep3alerts.ndjson": {
+  "size": 311839,
   "mtime": 1771787253.0,
-  "name": "ep3data.ndjson.gz",
-  "type": "archive"
+  "name": "ep3alerts.ndjson",
+  "type": "file"
  },
  "Week 1/Day 4/CDO-Samples/ep3/mapping.json": {
   "size": 228020,
@@ -203,46 +233,16 @@
   "name": "mapping.json",
   "type": "code"
  },
- "Week 1/Day 4/CDO-Samples/ep3/README.md": {
-  "size": 3885,
+ "Week 1/Day 4/CDO-Samples/ep3/ep3data.ndjson.gz": {
+  "size": 2013890,
   "mtime": 1771787253.0,
-  "name": "README.md",
-  "type": "text"
+  "name": "ep3data.ndjson.gz",
+  "type": "archive"
  },
- "Week 1/Day 4/CDO-Samples/ep7/ep7alerts.json": {
-  "size": 66919,
-  "mtime": 1771787253.0,
-  "name": "ep7alerts.json",
-  "type": "code"
- },
- "Week 1/Day 4/CDO-Samples/ep7/ep7alerts.ndjson": {
-  "size": 66917,
-  "mtime": 1771787253.0,
-  "name": "ep7alerts.ndjson",
-  "type": "file"
- },
- "Week 1/Day 4/CDO-Samples/ep7/mapping.json": {
-  "size": 228020,
-  "mtime": 1771787253.0,
-  "name": "mapping.json",
-  "type": "code"
- },
- "Week 1/Day 4/CDO-Samples/ep7/README.md": {
-  "size": 3884,
-  "mtime": 1771787253.0,
-  "name": "README.md",
-  "type": "text"
- },
- "Week 1/Day 2/CDO-Samples/tcpdump-sample01.pcap": {
-  "size": 2450358,
-  "mtime": 1722203769.0,
-  "name": "tcpdump-sample01.pcap",
-  "type": "file"
- },
- "Week 1/Day 2/CDO-Samples/tcpdump-sample02.pcap": {
-  "size": 6708630,
-  "mtime": 1722203769.0,
-  "name": "tcpdump-sample02.pcap",
+ "Week 1/Day 2/CDO-Samples/wireshark-Sample02.pcap": {
+  "size": 32055867,
+  "mtime": 1722203768.0,
+  "name": "wireshark-Sample02.pcap",
   "type": "file"
  },
  "Week 1/Day 2/CDO-Samples/tcpdump_challenge.pcap": {
@@ -257,10 +257,10 @@
   "name": "wireshark-Sample01.pcap",
   "type": "file"
  },
- "Week 1/Day 2/CDO-Samples/wireshark-Sample02.pcap": {
-  "size": 32055867,
-  "mtime": 1722203768.0,
-  "name": "wireshark-Sample02.pcap",
+ "Week 1/Day 2/CDO-Samples/tcpdump-sample02.pcap": {
+  "size": 6708630,
+  "mtime": 1722203769.0,
+  "name": "tcpdump-sample02.pcap",
   "type": "file"
  },
  "Week 1/Day 2/CDO-Samples/wireshark_challenge.pcap": {
@@ -269,17 +269,59 @@
   "name": "wireshark_challenge.pcap",
   "type": "file"
  },
- "Week 1/Day 2/CDO-Samples/ep1/ep1alerts.json": {
-  "size": 80341,
+ "Week 1/Day 2/CDO-Samples/tcpdump-sample01.pcap": {
+  "size": 2450358,
+  "mtime": 1722203769.0,
+  "name": "tcpdump-sample01.pcap",
+  "type": "file"
+ },
+ "Week 1/Day 2/CDO-Samples/ep7/ep7alerts.json": {
+  "size": 66919,
   "mtime": 1771787253.0,
-  "name": "ep1alerts.json",
+  "name": "ep7alerts.json",
   "type": "code"
+ },
+ "Week 1/Day 2/CDO-Samples/ep7/README.md": {
+  "size": 3884,
+  "mtime": 1771787253.0,
+  "name": "README.md",
+  "type": "text"
+ },
+ "Week 1/Day 2/CDO-Samples/ep7/mapping.json": {
+  "size": 228020,
+  "mtime": 1771787253.0,
+  "name": "mapping.json",
+  "type": "code"
+ },
+ "Week 1/Day 2/CDO-Samples/ep7/ep7alerts.ndjson": {
+  "size": 66917,
+  "mtime": 1771787253.0,
+  "name": "ep7alerts.ndjson",
+  "type": "file"
  },
  "Week 1/Day 2/CDO-Samples/ep1/ep1alerts.ndjson": {
   "size": 80339,
   "mtime": 1771787253.0,
   "name": "ep1alerts.ndjson",
   "type": "file"
+ },
+ "Week 1/Day 2/CDO-Samples/ep1/README.md": {
+  "size": 3885,
+  "mtime": 1771787253.0,
+  "name": "README.md",
+  "type": "text"
+ },
+ "Week 1/Day 2/CDO-Samples/ep1/ep1alerts.json": {
+  "size": 80341,
+  "mtime": 1771787253.0,
+  "name": "ep1alerts.json",
+  "type": "code"
+ },
+ "Week 1/Day 2/CDO-Samples/ep1/mapping.json": {
+  "size": 228151,
+  "mtime": 1771787253.0,
+  "name": "mapping.json",
+  "type": "code"
  },
  "Week 1/Day 2/CDO-Samples/ep1/ep1data.json": {
   "size": 7182627,
@@ -293,13 +335,7 @@
   "name": "ep1data.ndjson",
   "type": "file"
  },
- "Week 1/Day 2/CDO-Samples/ep1/mapping.json": {
-  "size": 228151,
-  "mtime": 1771787253.0,
-  "name": "mapping.json",
-  "type": "code"
- },
- "Week 1/Day 2/CDO-Samples/ep1/README.md": {
+ "Week 1/Day 2/CDO-Samples/ep3/README.md": {
   "size": 3885,
   "mtime": 1771787253.0,
   "name": "README.md",
@@ -311,23 +347,17 @@
   "name": "ep3alerts.json",
   "type": "code"
  },
- "Week 1/Day 2/CDO-Samples/ep3/ep3alerts.ndjson": {
-  "size": 311839,
-  "mtime": 1771787253.0,
-  "name": "ep3alerts.ndjson",
-  "type": "file"
- },
  "Week 1/Day 2/CDO-Samples/ep3/ep3data.json.gz": {
   "size": 2013879,
   "mtime": 1771787253.0,
   "name": "ep3data.json.gz",
   "type": "archive"
  },
- "Week 1/Day 2/CDO-Samples/ep3/ep3data.ndjson.gz": {
-  "size": 2013890,
+ "Week 1/Day 2/CDO-Samples/ep3/ep3alerts.ndjson": {
+  "size": 311839,
   "mtime": 1771787253.0,
-  "name": "ep3data.ndjson.gz",
-  "type": "archive"
+  "name": "ep3alerts.ndjson",
+  "type": "file"
  },
  "Week 1/Day 2/CDO-Samples/ep3/mapping.json": {
   "size": 228020,
@@ -335,34 +365,10 @@
   "name": "mapping.json",
   "type": "code"
  },
- "Week 1/Day 2/CDO-Samples/ep3/README.md": {
-  "size": 3885,
+ "Week 1/Day 2/CDO-Samples/ep3/ep3data.ndjson.gz": {
+  "size": 2013890,
   "mtime": 1771787253.0,
-  "name": "README.md",
-  "type": "text"
- },
- "Week 1/Day 2/CDO-Samples/ep7/ep7alerts.json": {
-  "size": 66919,
-  "mtime": 1771787253.0,
-  "name": "ep7alerts.json",
-  "type": "code"
- },
- "Week 1/Day 2/CDO-Samples/ep7/ep7alerts.ndjson": {
-  "size": 66917,
-  "mtime": 1771787253.0,
-  "name": "ep7alerts.ndjson",
-  "type": "file"
- },
- "Week 1/Day 2/CDO-Samples/ep7/mapping.json": {
-  "size": 228020,
-  "mtime": 1771787253.0,
-  "name": "mapping.json",
-  "type": "code"
- },
- "Week 1/Day 2/CDO-Samples/ep7/README.md": {
-  "size": 3884,
-  "mtime": 1771787253.0,
-  "name": "README.md",
-  "type": "text"
+  "name": "ep3data.ndjson.gz",
+  "type": "archive"
  }
 }

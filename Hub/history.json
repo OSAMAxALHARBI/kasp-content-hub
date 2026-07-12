@@ -22,5 +22,29 @@
   "time": "2026-07-08T05:49:57+00:00",
   "type": "pdf",
   "size": 4739045
+ },
+ {
+  "rel": "Week 3/Day 1/Day 1 – Introduction to Digital Forensics v0.1.pdf",
+  "name": "Day 1 – Introduction to Digital Forensics v0.1.pdf",
+  "event": "added",
+  "time": "2026-07-12T05:10:46+00:00",
+  "type": "pdf",
+  "size": 1335595
+ },
+ {
+  "rel": "Week 3/Day 1/Lab 1 – Behavioral Analysis v0.3.pdf",
+  "name": "Lab 1 – Behavioral Analysis v0.3.pdf",
+  "event": "added",
+  "time": "2026-07-12T05:10:46+00:00",
+  "type": "pdf",
+  "size": 993826
+ },
+ {
+  "rel": "Week 3/Day 1/Lab 0 – Lab Checklists v0.2.pdf",
+  "name": "Lab 0 – Lab Checklists v0.2.pdf",
+  "event": "added",
+  "time": "2026-07-12T05:10:46+00:00",
+  "type": "pdf",
+  "size": 89039
  }
 ]

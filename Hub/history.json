@@ -102,5 +102,29 @@
   "time": "2026-07-13T20:48:40+00:00",
   "type": "pdf",
   "size": 1485899
+ },
+ {
+  "rel": "Week 3/Day 4/Day 4 – Advanced Examination, Network & Reporting v0.1.pdf",
+  "name": "Day 4 – Advanced Examination, Network & Reporting v0.1.pdf",
+  "event": "added",
+  "time": "2026-07-14T22:33:34+00:00",
+  "type": "pdf",
+  "size": 1641047
+ },
+ {
+  "rel": "Week 3/Day 4/Lab 4 – Examination and Analysis of The Digital Evidence – Part 2 v0.3.pdf",
+  "name": "Lab 4 – Examination and Analysis of The Digital Evidence – Part 2 v0.3.pdf",
+  "event": "added",
+  "time": "2026-07-14T22:33:34+00:00",
+  "type": "pdf",
+  "size": 267771
+ },
+ {
+  "rel": "Week 3/Day 4/SANS_DFPS_FOR508_v4.11_0624.pdf",
+  "name": "SANS_DFPS_FOR508_v4.11_0624.pdf",
+  "event": "added",
+  "time": "2026-07-14T22:33:34+00:00",
+  "type": "pdf",
+  "size": 1923649
  }
 ]
